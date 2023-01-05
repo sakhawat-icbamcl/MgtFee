@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AMCLCommon.master.cs" Inherits="UI_AMCLCommon" %>
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="cc1" %>
+<%@ Register Assembly="skmMenu" Namespace="skmMenu" TagPrefix="cc2" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script runat="server">
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="Stylesheet" type="text/css" href="../CSS/amcl.css" />
+    <style type="text/css">
+        .style1
+        {
+            text-align: center;
+            color: #660066;
+            background-color: #CCCCCC;
+        }
+        .style2
+        {
+            text-align: center;
+            font-weight: bold;
+            font-size: larger;
+            color: #660066;
+            font-family: Verdana;
+        }
+        .style3
+        {
+            font-family: "Courier New", Courier, monospace;
+            font-size: small;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server" method="post">
+    <table width="1000"  align="center" cellpadding="0" cellspacing="0">
+    <tr>
+        <td style="background-color:#CCCCCC; height:100px; font-size:xx-large" class="style2">
+           
+        ICB ASSET MANAGEMENT COMPANY LIMITED</td>
+    </tr>
+	<tr class="topbgcolor">
+	    <td>
+	    <cc2:Menu id="mnuMenu" Layout="Horizontal" runat="server" Cursor="Pointer" Submenucssclass="Submenu">
+				<UNSELECTEDMENUITEMSTYLE CssClass="ItemUnSelected"></UNSELECTEDMENUITEMSTYLE>
+				<SELECTEDMENUITEMSTYLE CssClass="ItemSelected"></SELECTEDMENUITEMSTYLE>
+			</cc2:Menu>
+	    </td>
+	  </tr>
+    </table>
+    <table width="1000"  align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center">        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"> 
+           <br />       
+           <br />    
+           <br />    
+           <br />    
+           <br />    
+           <br />    
+          
+           <br />    
+           <br />    
+        </asp:ContentPlaceHolder>
+        </td>
+      </tr>
+    </table>   
+    <table width="1000"  align="center" cellpadding="0" cellspacing="0">
+        <tr>     
+        <td style="height:3px;" class="style1" align="center">
+            <span class="style3">Design & Developed by ICBAMCL IT Department.
+            Copyright&nbsp; @ICBAMCL</span> 
+   
+            </td>
+        </tr>
+    </table>
+   
+    </form>
+</body>
+</html>

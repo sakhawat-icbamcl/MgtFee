@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AMCL.AllReport", ".", "{72E18080-FDA0-49D1-AC7B-1DE50F538629}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/AMCL.AllReport"
+		Debug.AspNetCompiler.PhysicalPath = "D:\Project\Web\AMCL.AllReport\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\AMCL.AllReport\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/AMCL.AllReport"
+		Release.AspNetCompiler.PhysicalPath = "D:\Project\Web\AMCL.AllReport\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\AMCL.AllReport\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2878"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72E18080-FDA0-49D1-AC7B-1DE50F538629}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{72E18080-FDA0-49D1-AC7B-1DE50F538629}.Debug|.NET.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
